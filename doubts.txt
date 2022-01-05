@@ -1,0 +1,9 @@
+list1=[1,2,3,4]
+list2=[]
+for i in range(len(list1)):
+ list2[i]=list1[i]*10
+ print(list2[i],end=' ')
+
+smallest of three numbers using ternary operator
+
+discard and remove exact difference--???

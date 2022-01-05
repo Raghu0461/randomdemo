@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name,age):   #(std, tushar, 40)
+        self.fname=name                # std.fname  = "tushar"
+        self.fage=age                   # std.age  = 40
+        
+ 
+    def message(self):
+        print("hey this is a mesage", self.fname)
+ 
+std1 = Student("tushar",40)
+ 
+std1.message()
+ 
+std2 = Student("Joy",50)
+std2.message()
